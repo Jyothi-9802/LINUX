@@ -1,0 +1,30 @@
+Download and Installation:
+
+1.Download ubuntu version 20.04.2 from browser
+2.Download virtual box 6.1 from browser and install.
+
+virtual box settings:
+
+1.select new
+2.name(eg:ubuntu)
+3.choose ubuntu 64 bit >>next
+4.select space(eg:3gb)>>next
+5.select create virtual hard disk >>next
+6 select VDI >> next
+7.select dynamically allocated >> next
+8.create
+
+General settings:
+advanced settings > select bidirectional
+ 
+Storage > select the empty disk and load the downloaded ubuntu iso file
+OK
+
+START
+
+after intallation is completed click on restart(when dialogue box appears)
+
+create username and password
+open terminal
+sudo apt install build-essential dkms linux-headers-$(uname-r)
+ 
